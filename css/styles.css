@@ -1,0 +1,258 @@
+body {
+  font-family: 'Architects Daughter', cursive;
+  background-color: black;
+}
+
+#title {
+
+  
+
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 10%;
+  background-image: url(../images/hell3.png);
+  background-size:contain;
+}
+h1 {
+  color: rgb(247, 245, 248);
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.2em;
+  margin-top: 140px;
+
+  font-size: 100%;
+
+  }
+
+h2 {
+  font-size: 350%;
+  color: #F9F9F9;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 10px;
+  width: 40ch;
+  animation: typing 3s steps(40), blink .7s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 5px solid;
+}
+
+
+h3 {
+  font-size: 115%;
+  color: rgb(110, 79, 196);
+  font-family:'Poppins', sans-serif;
+  padding-top: 10px;
+}
+
+h3:hover {
+  font-size: 115%;
+  color: rgb(117, 223, 200);
+  font-family: 'Poppins', sans-serif;
+  padding-top: 10px;
+  
+}
+
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+
+.navbar-brand {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+
+
+
+.navbar-item {
+  padding: 0 18px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar-nav li {
+    float: right;
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.navbar-nav h3 {
+    color: rgb(110, 79, 196);
+}
+
+.navbar-nav li:hover {
+    background-image: linear-gradient(brown, purple);
+}
+
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+
+
+}
+
+/* Features */
+#features {
+  text-align: center;
+ 
+
+}
+
+
+/*Testimonials */
+
+
+h4 {
+  color: rgb(110, 79, 196);
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+h4:hover {
+  color: pink;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+.skill{
+  text-align: center;
+  
+  padding:2% 38%;
+}
+
+
+/* Footer Section*/
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 2px;
+}
+.card{
+  margin-right: 10px;
+}
+
+#footer{
+
+  padding: 2% 15%;
+  text-align: center;
+}
+
+.social-icon
+{
+  margin: 20px 10px;
+}
+em{
+  text-align: center;
+  color: white;
+} 
+.col-lg-6{
+  animation-name: text;
+
+
+}
+
+
+@keyframes typing{
+  from{width: 0%}
+  to{width: 100%}
+
+}
+
+@keyframes blink{
+  50%{border-color: transparent}
+}
+
+#proj{
+  color: rgb(247, 245, 248);
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.2em;
+  margin-top: 140px;
+text-decoration-line: underline;
+  font-size: 40px;
+padding-bottom: 100px;
+  text-align: center;
+
+}
+#pro{
+  display: flex;
+  float: left;
+ padding-right: 50px;
+ padding-left: 0px;
+}
+@media screen and (max-width: 480px)  {
+
+
+  h2{
+    font-size: 250%;
+  }
+  .title-image{
+    width:  200px;
+    padding-top: 23px;
+    padding-bottom: 10px;
+  }
+  h1{
+  margin-top: 40px;
+  }
+
+  
+  .skill{
+    text-align: center;
+    
+    padding:0% 3%;
+  }
+  #lang{
+    margin-bottom: 30px;
+  }
+  #pro{
+    display: block;
+    padding: 10px;
+  }
+  #proj{
+  margin-top: 40px;
+}
+.card{
+  margin-bottom: 30px;
+}
+h3 {
+  font-size: 30px;
+  padding-bottom: 20px;
+  
+}
+
+h3:hover {
+  padding-bottom: 30px;
+  font-size: 30px;
+  
+}
+h1{
+  font-size: 24px;
+}
+h2{
+  font-size: 300%;
+}
+}
